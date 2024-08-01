@@ -12,6 +12,8 @@
             height: 100vh;
             margin: 0;
             font-family: Calibri, Arial, sans-serif;
+            background-color: #F0ECE2; /* Background color */
+            color: #571216; /* Text color */
         }
         .container {
             text-align: center;
@@ -21,20 +23,22 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: 2px solid #000;
+            border: 2px solid #571216; /* Box border color */
             border-radius: 10px;
+            background-color: #571216; /* Box background color */
+            color: #F0ECE2; /* Box text color */
             margin-top: 10px;
         }
         .box a {
-            text-decoration: none;
-            color: blue;
+            text-decoration: underline; /* Add underline to the link */
+            color: #F0ECE2; /* Link color inside the box */
             font-size: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <p>Save to contacts</p>
+        <p>Save number to contacts:</p>
         <div class="box">
             <a href="tel:+6596100410">+65 9610-0410</a>
         </div>
