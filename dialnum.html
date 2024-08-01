@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Dialer Link</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .box a {
+            text-decoration: none;
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
-    <a href="tel:+6596100410">Save to contacts +65 9610-0410</a>
+    <div class="box">
+        <p>Save to contacts</p>
+        <a href="tel:+6596100410">+65 9610-0410</a>
+    </div>
 </body>
 </html>
